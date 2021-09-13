@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Barra de rolagem */
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fe51337a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FE5333;
+    border-radius: 2px;
+}   
+/* Barra de rolagem */
+
+/* Main */
+
+.main-container {
+    width: 95%;
+    height: 900px;
+    margin:  30px auto;
+}
+
+.main-container h1 {
+    text-align: center;
+}
+
+/* Form */
+
+.main-container form {
+    display: flex;
+    width: 80%;
+    height: 820px;
+    margin: 30px auto;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+    border-radius: 5px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 30px;
+    margin: 10px auto;
+    height: 700px;
+}
+
+/* Inputs */
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.inputs input {
+    margin-top: 10px;
+    border: none;
+    background-color:#F7F9FD;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+.inputs textarea {
+    border: none;
+    background-color: #F7F9FD;
+    margin-top: 10px;
+    resize: none;
+}
+
+.inputs label {
+    margin-top: 30px;
+}
+
+/* Botão */
+
+.btn {
+    width: 20%;
+    margin-top: 30px;
+    border: 1px solid #FE5333;
+    color: #FE5333;
+}
+
+.btn:hover {
+    background-color: #FE5333;
+    color: #fff;
+}
+
+/* Imagem */
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 750px;
+}
+
+
+.img-container figure {
+    
+    height: 750px;
+}
+
+/* Form */
+
+/* Media Queries */
+
+@media screen and (max-width: 1370px) {
+    
+    .main-container form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1222px) {
+    
+    .img-container {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    .img-container img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    .img-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 734px) {
+    
+    .btn {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .form-container {
+        width: 90%;
+        height: 800px;
+    }
+    
+    .form-container h2 {
+        width: 100%;
+    }
+}
+

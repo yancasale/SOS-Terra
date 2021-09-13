@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Barra de rolagem */
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fe51337a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FE5333;
+    border-radius: 2px;
+}   
+
+/* Barra de rolagem */
+
+
+/* Botão */
+
+.btn-outline-light {
+    color: #92518E;
+    border: 1px solid #92518E;
+}
+
+.btn-outline-light:hover {
+    color: #fff;
+    background-color: #92518E;;
+    
+}
+
+/* Botão */

@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Barra de rolagem */
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fe51337a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FE5333;
+    border-radius: 2px;
+}   
+
+/* Barra de rolagem */
+
+/* Main */
+
+.main-section-ajuda {
+    width: 100%;
+    height: 700px;
+    margin: 10px auto;
+}
+
+.container-main-section-ajuda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.container-main-section-ajuda figure {
+    height: 600px;
+}
+
+.texto-ajuda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+}
+
+.texto-ajuda h2 {
+    font-size: 3em;
+}
+
+.texto-ajuda p {
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+.main-section-comoAjudar {
+    width: 100%;
+    height: 1000px;
+    background-color: #F7F9FD;
+
+}
+
+.container-main-section-comoAjudar {
+    width: 95%;
+    height: 1000px;
+    margin: 0px auto;
+    border: 1px solid #F7F9FD;
+}
+
+/* Mobile */
+
+.mobile figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Mobile */
+
+.container-main-section-comoAjudar figure {
+    display: flex;
+    justify-content: center;
+}
+
+.container-main-section-comoAjudar h2 {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+.container-main-section-comoAjudar p {
+    width: 70%;
+    height: 120px;
+    text-align: left;
+    font-size: 1em;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.main-section-doe {
+    width: 100%;
+    height: 1000px;
+
+}
+
+.container-main-section-doe {
+    width: 95%;
+    height: 1000px;
+    margin: 40px auto;
+}
+
+.container-main-section-doe h2 {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+.container-main-section-doe p {
+    width: 70%;
+    height: 120px;
+    text-align: left;
+    font-size: 1em;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+/* Main */
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 600px;
+    margin: 0px auto;
+}
+
+.doacao p {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn-outline-light{
+    color: #92518E;
+    border: 1px solid #92518E;
+}
+
+.btn-outline-light:hover {
+    border: 1px solid #92518E;
+    background-color: #92518E;
+    color: #fff;
+}
+
+/* Footer */
+
+/* Media Queries */
+
+@media screen and (max-width: 1216px) {
+
+    .container-main-section-ajuda img {
+        width: 500px;
+        height: 500px;
+
+    }
+
+    .texto-ajuda h2 {
+        font-size: 2em;
+    }
+
+    .texto-ajuda p {
+        font-size: 1em;
+    }
+
+    .container-main-section-comoAjudar h2 {
+        width: 100%;
+        font-size: 2em;
+    }
+
+    .container-main-section-comoAjudar p {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .container-main-section-doe h2 {
+        width: 100%;
+        font-size: 2em;
+    }
+
+    .container-main-section-doe p {
+        width: 100%;
+        font-size: 1em;
+    }
+
+
+}
+
+@media screen and (max-width: 1088px) {
+    .main-section-ajuda {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1002px) {
+    .mobile-container h2 {
+        width: 100%;
+    }
+
+    .mobile-container p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 842px) {
+    .container-main-section-comoAjudar img {
+        width: 500px;
+        height: 500px;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .mobile {
+        width: 100%;
+        height: 700px;
+
+    }
+
+    .mobile-container {
+        width: 100%;
+    }
+
+    .mobile h2 {
+        font-size: 2em;
+    }
+
+    .mobile p {
+        width: 95%;
+    }
+
+    .mobile img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .mobile figure {
+        margin-top: 80px;
+    }
+
+    .main-section-comoAjudar {
+        width: 100%;
+        height: 700px;
+
+    }
+
+    .main-section-comoAjudar h2 {
+        font-size: 1.9em;
+    }
+
+    .main-section-comoAjudar img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .main-section-comoAjudar figure {
+        margin-top: 80px;
+    }
+
+    .main-section-doe {
+        width: 100%;
+        height: 700px;
+
+    }
+
+    .main-section-doe h2 {
+        font-size: 1.9em;
+    }
+
+    .main-section-doe img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .main-section-doe figure {
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .mobile p {
+        font-size: 0.9em;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .main-section-comoAjudar p {
+        font-size: 0.9em;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .main-section-doe p {
+        font-size: 0.9em;
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .mobile p {
+        font-size: 0.8em;
+    }
+
+    .main-section-comoAjudar p {
+        font-size: 0.8em;
+    }
+
+    .main-section-doe p {
+        font-size: 0.8em;
+    }
+}
