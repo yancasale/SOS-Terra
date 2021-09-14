@@ -4,6 +4,8 @@ Este é um projeto de um site que visa educar pessoas sobre o aquecimento global
 
 ==============================
 
+Wireframe : Está desatualizado, mas já da para ter uma noção das minhas idéias principais. https://www.figma.com/file/HBERpw9sdWj40lcox7VthU/SOS-Terra?node-id=0%3A1
+
 Frameworks : Bootrstrap (Tentei usar o mínimo possível, dando valor a escrever o CSS por minha conta na maioria das vezes)
 
 Ilustrações : https://storyset.com/search?q=
