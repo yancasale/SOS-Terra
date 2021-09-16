@@ -2,6 +2,8 @@
 
 Este é um projeto de um site que visa educar pessoas sobre o aquecimento global e as mudanças climáticas.
 
+A versão mobile ainda está inacabada, ainda tem alguns bugs.
+
 ==============================
 
 Wireframe : Está desatualizado, mas já da para ter uma noção das minhas ideias principais. https://www.figma.com/file/HBERpw9sdWj40lcox7VthU/SOS-Terra?node-id=0%3A1
