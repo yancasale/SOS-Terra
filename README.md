@@ -1,20 +1,27 @@
-## Nos ajude a salvar o planeta SOS Terra
+# Nos ajude a salvar o planeta - SOS Terra
 
-Este é um projeto de um site que visa educar pessoas sobre o aquecimento global e as mudanças climáticas.
+## Este é um projeto de um site que visa educar pessoas sobre o aquecimento global e as mudanças climáticas.
 
-A versão mobile ainda está inacabada, ainda tem alguns bugs.
+* A versão mobile ainda está inacabada, ainda tem alguns bugs.
 
-==============================
 
-Wireframe : Está desatualizado, mas já da para ter uma noção das minhas ideias principais. https://www.figma.com/file/HBERpw9sdWj40lcox7VthU/SOS-Terra?node-id=0%3A1
+### Wireframe : 
 
-Frameworks : Bootrstrap (Tentei usar o mínimo possível, dando valor a escrever o CSS por minha conta na maioria das vezes)
+Está desatualizado, mas já da para ter uma noção das minhas ideias principais. https://www.figma.com/file/HBERpw9sdWj40lcox7VthU/SOS-Terra?node-id=0%3A1
 
-Ilustrações : https://storyset.com/search?q=
+### Frameworks : 
 
-Templates : Usei alguns templates para me inspirar, como por exemplo o footer e as navbars, porém na maioria dos casos acabei também fazendo por conta própria : https://startbootstrap.com/themes
+Bootstrap ntei usar o mínimo possível, dando valor a escrever o CSS por minha conta na maioria as vezes)
 
-Fontes usadas para escrever o conteúdo :
+### Ilustrações : 
+
+https://storyset.com/search?q=
+
+###  Templates : 
+
+Usei alguns templates para me inspirar, como por exemplo o footer e as navbars, porém na maioria dos casos acabei também fazendo por conta própria : https://startbootstrap.com/themes
+
+### Fontes usadas para escrever o conteúdo :
 
 https://www.todamateria.com.br/aquecimento-global/
 
