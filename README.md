@@ -1,17 +1,19 @@
 # Nos ajude a salvar o planeta - SOS Terra
 
-## Este é um projeto de um site que visa educar pessoas sobre o aquecimento global e as mudanças climáticas.
+### Este é um projeto de um site que visa educar pessoas sobre o aquecimento global e as mudanças climáticas.
 
 * A versão mobile ainda está inacabada, ainda tem alguns bugs.
 
 
 ### Wireframe : 
 
-Está desatualizado, mas já da para ter uma noção das minhas ideias principais. https://www.figma.com/file/HBERpw9sdWj40lcox7VthU/SOS-Terra?node-id=0%3A1
+Está desatualizado, mas já da para ter uma noção das minhas ideias principais.
+
+https://www.figma.com/file/HBERpw9sdWj40lcox7VthU/SOS-Terra?node-id=0%3A1
 
 ### Frameworks : 
 
-Bootstrap ntei usar o mínimo possível, dando valor a escrever o CSS por minha conta na maioria as vezes)
+* Bootstrap - tentei usar o mínimo possível, dando valor a escrever o CSS por minha conta na maioria as vezes)
 
 ### Ilustrações : 
 
@@ -19,10 +21,15 @@ https://storyset.com/search?q=
 
 ###  Templates : 
 
-Usei alguns templates para me inspirar, como por exemplo o footer e as navbars, porém na maioria dos casos acabei também fazendo por conta própria : https://startbootstrap.com/themes
+Usei alguns templates para me inspirar, como por exemplo o footer e as navbars, porém na maioria dos casos acabei também fazendo por conta própria :
+
+https://startbootstrap.com/themes
 
 ### Fontes usadas para escrever o conteúdo :
 
+<details>
+  <summary>Clique para ver</summary>
+  
 https://www.todamateria.com.br/aquecimento-global/
 
 https://pt.wikipedia.org/wiki/Aquecimento_global 
@@ -33,4 +40,5 @@ https://blog.waycarbon.com/2017/07/quais-as-suas-reais-consequencias-do-aquecime
  
 https://akatu.org.br/dia-do-meio-ambiente-7-atitudes-para-combater-o-aquecimento-global/
 
-==============================
+</details>
+
