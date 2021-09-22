@@ -1,4 +1,4 @@
-# SOS Terra
+## Nos ajude a salvar o planeta SOS Terra
 
 Este é um projeto de um site que visa educar pessoas sobre o aquecimento global e as mudanças climáticas.
 
